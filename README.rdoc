@@ -1,0 +1,28 @@
+= teo_group_by_role
+
+Este plugin de redmine modifica la vista de usuario agrupando por roles los proyectos de los que es miembro.
+
+== Instalación
+
+Copiar o realizar un checkout de este repositorio en el directorio de plugins de
+redmine: `redmine/plugins/teo_group_by_role`
+
+El plugin sólo modifica la vista, por lo que no es necesario ejecutar ninguna migración.
+
+Una vez copiado debemos asegurarnos que el propietario y el grupo del plugin son correctos.
+También debemos de asegurarnos de que los permisos son los adecuados, ejecutando la siguiente orden para restablecer los permisos por defectos en ficheros y carpetas:
+
+    chmod -R a+rX teo_group_by_role/
+
+
+Por último sólo queda reiniciar Redmine.
+
+== Desinstalación
+
+Basta con eliminar la carpeta del plugin y reiniciar Redmine.
+
+
+---
+Author: Junta de Andalucía
+
+License: GPLv2
