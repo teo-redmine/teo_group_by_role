@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'redmine'
 
 # Se incluye el codigo del plugin al controlador de users
